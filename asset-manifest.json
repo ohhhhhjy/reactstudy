@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/reactstudy/static/js/main.fdc63426.chunk.js",
+    "main.js.map": "/reactstudy/static/js/main.fdc63426.chunk.js.map",
+    "runtime-main.js": "/reactstudy/static/js/runtime-main.c1e70cc5.js",
+    "runtime-main.js.map": "/reactstudy/static/js/runtime-main.c1e70cc5.js.map",
+    "static/js/2.a6944fe8.chunk.js": "/reactstudy/static/js/2.a6944fe8.chunk.js",
+    "static/js/2.a6944fe8.chunk.js.map": "/reactstudy/static/js/2.a6944fe8.chunk.js.map",
+    "index.html": "/reactstudy/index.html",
+    "static/js/2.a6944fe8.chunk.js.LICENSE.txt": "/reactstudy/static/js/2.a6944fe8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1e70cc5.js",
+    "static/js/2.a6944fe8.chunk.js",
+    "static/js/main.fdc63426.chunk.js"
+  ]
+}
