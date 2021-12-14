@@ -1,5 +1,6 @@
 import Movie from "../components/Movie";
 import {useState, useEffect} from "react";
+import styles from "../Home.module.css";
 function Home() {
     const [loading, setLoading] = useState(true);
     const [movies, setMovies] = useState([]);
@@ -19,7 +20,7 @@ function Home() {
     }, []);
     console.log(movies);
     return (
-        <div>
+        <div className={styles.container}>
             {
                 loading
                     ? (<h1>Loading...</h1>)
@@ -31,6 +32,7 @@ function Home() {
                                     <Movie
                                         key={movie.id}
                                         id={movie.id}
+                                        year={movie.year}
                                         coverImage={movie.medium_cover_image}
                                         title={movie.title}
                                         summary={movie.summary}
